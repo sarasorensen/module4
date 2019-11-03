@@ -1,0 +1,29 @@
+What is the DOM?
+-Short for Document Object Model and is a programming interface for HTML and XML documents. It represents the page so that you
+can change structure, style and content.
+ 
+List three methods to manipulate the DOM.
+-EventTarget.addEventListener(), Element.getAttribute(), Elemt.getElementsByTagName()
+
+What is an asynchronous call?
+-Means that things can happen independently of the main program flow, then when the time is right a callback will spring 
+these asynchronous requests into action. 
+
+Briefly explain what the sources tab in Chromes Developers Tools does.
+-it has a list of all the files that are linked to your html file, and you can use it to add breakpoints in your code
+which stops the code from executing, enabling you to find bugs. 
+
+What is a JavaScript promise?
+-Are a way to execute code asynchronous, which means that when we call a promise our code doesn't wait for a response, but moves on to 
+the next line of code. 
+
+What is an API?
+-(Application Programming Interface), provides a way to communicate with other software. You can use Javascript's fetch method
+to connect to an API and fetch data for an example. 
+
+What is a JavaScript Event?
+-events are "things" that can happen to HTML elements, and when Javascript is used, Javascript can "react" to these events. 
+
+What is event bubbling?
+-It's a term that relates to the order in which event handlers (onclick for an example) are called when one element is nested inside a second
+element, and both elements have registered a listener for the same event. 
